@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Dela+Gothic+One&family=Fredoka+One&family=Indie+Flower&family=Kalam&family=Lobster&family=Lobster+Two:ital@1&family=Macondo&family=Poppins&family=Red+Rose&family=Righteous&display=swap');
+
+
+/* START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),url("./Assets/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.container{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px 25px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    
+}
+.menu ul li a{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Red Rose', cursive;
+    color: #ffc233;
+    font-weight: 500;
+}
+.menu ul li a:hover{
+    font-size: 25px;
+    border-bottom: 1px solid #ff505f;
+}
+.order-btn button{
+    width: 125px;
+    height: 35px;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #ff505f;
+    border: none;
+    margin: 20px 30px;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.order-btn button:hover{
+    color: #ff505f;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+/* Hero-Section */
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 75px;
+    /* margin: 0 auto; */
+}
+.hero-element h1{
+    font-size: 75px;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    text-transform: capitalize;
+    text-align: center;
+    color: #ffc233;
+    letter-spacing: 1px;
+    line-height: 95px;
+    font-weight: 650;
+   text-shadow: 2px 2px white;
+    
+}
+
+.hero-element button{
+    margin: 30px;
+    position: relative;
+    left: 320px;
+    width: 220px;
+    height: 50px;
+    font-size: 17px;
+    background: #ff505f;
+    color: #ffffff;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-element button:hover{
+    color: #ff505f;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+.scroll-img{
+    margin-bottom: 150px;
+    position: relative;
+    bottom: 130px;
+    left: 550px;
+}
+.scroll-img:hover{
+    cursor: pointer;
+}
